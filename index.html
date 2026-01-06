@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="shortcut icon" href="src/img/letra-g.png" type="image/x-icon">
+    <title>Giovana | Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='src/main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo"><strong>Giovana</strong>.dev</div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#certificacoes">Certificações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero container">
+            <div class="hero-content">
+                <p class="subtitle">OLÁ, EU SOU</p>
+                <h1>Giovana</h1>
+                <p class="description">
+                    Desenvolvedora em formação na <strong>Impacta Tecnologia</strong>. 
+                    Apaixonada por criar soluções inovadoras e experiências digitais.
+                </p>
+
+                <div class="contato">
+                    <a href="https://www.linkedin.com/in/giovanalopesr">
+                        <i class="fa-brands fa-linkedin"></i> Linkedin
+                    </a>
+                    <a href="mailto:gilopes2005@gmail.com">
+                        <i class="fa fa-envelope"></i> Email
+                    </a>
+                    <a href="https://www.github.com/gilopesr">
+                        <i class="fa-brands fa-github"></i> Github
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                </div>
+
+            </div>
+            <div class="hero-image">
+                <figure class="circle-bg">
+                    <img src="/src/img/perfil1.jpg" alt="Giovana">
+                </figure>
+            </div>
+        </section>
+
+        <section id="objetivos">
+            <div class="container bento-layout">
+                <div class="side-info">
+                    <h2 class="section-title-left">Objetivos</h2>
+                    <p class="side-description">Minhas metas e princípios fundamentais como desenvolvedora.</p>
+                </div>
+
+                <div class="grid-objetivos-bento">
+                    <article class="obj-card-bento">
+                        <div class="obj-info">
+                            <h3>Aprendizado</h3>
+                            <p>Buscar constantemente novas tecnologias e metodologias para aprimorar minhas habilidades e conhecimento.</p>
+                        </div>
+                    </article>
+
+                    <article class="obj-card-bento">
+                        <div class="obj-info">
+                            <h3>Crescimento</h3>
+                            <p>Evoluir como desenvolvedora através de desafios e projetos cada vez mais complexos.</p>
+                        </div>
+                    </article>
+
+                    <article class="obj-card-bento">
+                        <div class="obj-info">
+                            <h3>Qualidade</h3>
+                            <p>Escrever código limpo e de fácil manutenção seguindo as melhores práticas.</p>
+                        </div>
+                    </article>
+
+                    <!-- <article class="obj-card-bento">
+                        <div class="obj-info">
+                            <h3>Resultados</h3>
+                            <p>Garantir o sucesso do objetivo final.</p>
+                        </div>
+                    </article> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container bento-layout">
+                <div class="side-info">
+                    <p class="section-subtitle">MEU TRABALHO</p>
+                    <h2 class="section-title-left">Projetos</h2>
+                    <p class="side-description">Aqui estão projetos academicos e pessoais. Para ver mais acesse meu Github</p>
+                    <div class="filter-container-left">
+                        <button class="filter-btn active" onclick="filtrar('todos')">Todos</button>
+                        <button class="filter-btn" onclick="filtrar('academicos')">Acadêmicos</button>
+                        <button class="filter-btn" onclick="filtrar('pessoais')">Pessoais</button>
+                    </div>
+                </div>
+
+                <div class="grid-projetos-bento">
+                    <article class="projeto-card-bento" data-category="academicos">
+                        <div class="card-badge">2025</div>
+                        <h3>Software Livraria</h3>
+                        <p>A Livraria Entrelinhas é uma aplicação web completa, desenvolvida para simular a gestão, catálogo e interação com uma livraria digital.</p>
+                        <div class="tags">
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Javascript</span>
+                            <span class="tag">Docker</span>
+                        </div>
+
+                        <div class="projeto-links">
+                            <a href="https://github.com/gilopesr/software_livraria">
+                                <i class="fa-brands fa-github"></i>Github
+                            </a>
+                            
+                        </div>
+                    </article>
+                    <article class="projeto-card-bento" data-category="academicos">
+                        <div class="card-badge">2024</div>
+                        <h3>API Gerenciamento Escolar</h3>
+                        <p>API RESTful construída com Flask e Flask-RESTx para gerenciar os dados de uma instituição de ensino.</p>
+                        <div class="tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">Python</span>
+                        </div>
+
+                        <div class="projeto-links">
+                            <a href="https://github.com/brunaferreir/API-SchoolSystem">
+                                <i class="fa-brands fa-github"></i>Github
+                            </a>
+                            
+                        </div>
+                    </article>
+                    <article class="projeto-card-bento" data-category="academicos">
+                        <div class="card-badge">2025</div>
+                        <h3>PetMatch</h3>
+                        <p>Este é um aplicativo Android desenvolvido em Kotlin no Android Studio, dedicado a conectar animais necessitados com lares amorosos.</p>
+                        <div class="tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Android Studio</span>
+                        </div>
+
+                        <div class="projeto-links">
+                            <a href="https://github.com/brunaferreir/As-compiladoras">
+                                <i class="fa-brands fa-github"></i> Github
+                            </a>
+                            
+                        </div>
+                    </article>
+                    <article class="projeto-card-bento" data-category="pessoais">
+                        <div class="card-badge">2025</div>
+                        <h3>Joyce Limpezas</h3>
+                        <p> Site para uso profissional da Joyce, apresentando o seu serviço e meios de contato. Foco em um Design limpo para entendimento geral.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+
+                        <div class="projeto-links">
+                            <a href="https://joycelimpezas.netlify.app/">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Site
+                            </a>
+                            
+                        </div>
+                    </article>
+                    <article class="projeto-card-bento" data-category="pessoais">
+                        <div class="card-badge">2025</div>
+                        <h3>Ask Giselle</h3>
+                        <p>Projeto interativo desenvolvido para explorar e praticar conceitos de HTML, CSS e JavaScript. O site permite que os usuários façam escolhas entre duas opções, proporcionando uma maneira divertida de tomar decisões.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <div class="projeto-links">
+                            <a href="https://gilopesr.github.io/askGiselle/">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>Ver Projeto
+                            </a>
+                            
+                            <a href="https://github.com/gilopesr/askGiselle">
+                                <i class="fa-brands fa-github"></i>GitHub
+                            </a>
+                            
+                        </div>
+                    </article>
+                    <article class="projeto-card-bento" data-category="pessoais">
+                        <div class="card-badge">2025</div>
+                        <h3>Card Pokemon</h3>
+                        <p>Para explorar o uso de API's desenvolvi um card com informações de Pokemon, as informações são da PokeAPI, colocando um número você obtem um pokemon.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <div class="projeto-links">
+                            <a href="https://gilopesr.github.io/PokemonCard/" target="_blank">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Projeto
+                            </a>
+                            <a href="https://github.com/gilopesr/PokemonCard" target="_blank">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificacoes">
+            <div class="container bento-layout">
+                <div class="side-info">
+                    <h2 class="section-title-left">Certificações</h2>
+                    <p class="side-description">Minha jornada de aprendizado contínuo e validação de competências técnicas.</p>
+                </div>
+
+                <div class="grid-certificacoes-bento">
+                    <article class="cert-card-bento">
+                        <div class="cert-icon-box">
+                            <i class="fas fa-microchip"></i> </div>
+                        <div class="cert-info">
+                            <h3>Operador de Microcomputador </h3>
+                            <p>SENAI • 2022</p>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="#">Link</a>
+                        </div>
+                    </article>
+
+                    <article class="cert-card-bento">
+                        <div class="cert-icon-box">
+                            <i class="fas fa-code"></i> </div>
+                        <div class="cert-info">
+                            <h3>Python AI —Backend Developer</h3>
+                            <p>DIO • 2024</p>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="https://www.dio.me/certificate/VL0UDTLG/share">Link</a>
+                        </div>
+                    </article>
+
+                    <article class="cert-card-bento">
+                        <div class="cert-icon-box">
+                            <i class="fas fa-cloud"></i> </div>
+                        <div class="cert-info">
+                            <h3>AWS Cloud Foundations</h3>
+                            <p>AWS Academy • 2024</p>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="https://www.credly.com/badges/3a973a40-c90f-4ab8-9a28-0c0fdbb243b9/linked_in_profile">Link</a>
+                        </div>
+                    </article>
+
+                    <article class="cert-card-bento">
+                        <div class="cert-icon-box">
+                            <i class="fas fa-table"></i> </div>
+                        <div class="cert-info">
+                            <h3>Microsoft Excel 2016</h3>
+                            <p>Fundação Bradesco • 2024</p>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="#">Link</a>
+                        </div>
+                    </article>
+
+                    <article class="cert-card-bento">
+                        <div class="cert-icon-box">
+                            <i class="fas fa-cogs"></i> </div>
+                        <div class="cert-info">
+                            <h3> DevOps & Agile Culture</h3>
+                            <p>FIAP • 2024</p>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/118578/2e6ab76c064723ee7f8538ba00343bf2/certificado.png">Link</a>
+                        </div>
+                    </article>
+
+                    <article class="cert-card-bento">
+                        <div class="cert-icon-box">
+                            <i class="fas fa-gamepad"></i> </div>
+                        <div class="cert-info">
+                            <h3>Game Design</h3>
+                            <p>FIAP • 2025</p>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8a12150675c08ca0833e33b7a5bf6059&action=view">Link</a>
+                        </div>
+                    </article>
+
+                    <article class="cert-card-bento">
+                        <div class="cert-icon-box">
+                            <i class="fas fa-code"></i> </div>
+                        <div class="cert-info">
+                            <h3>Introdução ao C# e .Net</h3>
+                            <p>Rocketseat • 2025</p>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="https://app.rocketseat.com.br/certificates/f7a35d9e-0728-41de-a533-6d2704e23f65">Link</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Giovana Lopes.</p>
+    </footer>
+    <script src="/src/main.js"></script>
+</body>
+</html>
